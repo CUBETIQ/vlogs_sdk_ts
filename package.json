@@ -4,6 +4,9 @@
   "description": "A simple way to collect logs and send to the server via simple SDK.",
   "main": "dist/index.js",
   "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
   "dist": {
     "type": "module",
     "main": "dist/index.js",
