@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "A simple way to collect logs and send to the server via simple SDK.",
   "main": "dist/index.js",
+  "private": false,
   "dist": {
     "type": "module",
     "main": "dist/index.js",
