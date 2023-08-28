@@ -5,9 +5,9 @@ import { getSystemHostname, getSystemUsername } from "./util";
 export class VLogs {
     private static readonly _logger = console;
     private static readonly NAME = 'vlogs';
-    private static readonly VERSION = '0.0.1';
-    private static readonly VERSION_CODE = '1';
-    private static readonly DEFAULT_VLOGS_URL = 'https://vlogs-sg1.onrender.com';
+    private static readonly VERSION = '0.0.2';
+    private static readonly VERSION_CODE = '2';
+    private static readonly DEFAULT_VLOGS_URL = 'https://hsg1-vlogs.ctdn.net';
     private static readonly APP_ID_HEADER_PREFIX = 'x-app-id';
     private static readonly API_KEY_HEADER_PREFIX = 'x-api-key';
     private static readonly DEFAULT_CONNECT_TIMEOUT = 60; // seconds
